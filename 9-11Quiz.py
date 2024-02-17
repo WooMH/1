@@ -29,22 +29,3 @@ print("총 {0}대의 매물이 있습니다.".format(len(houses)))
 
 for house in houses:
     house.show_detail()
-
-
-# print("총 3대의 매물이 있습니다.")
-
-# class Gangnam(House):
-#     def __init__(self):
-#         House.__init__(self, "강남", "아파트", "매매", "10억", "2010")
-
-# class Mapo(House):
-#     def __init__(self):
-#         House.__init__(self, "마포", "오피스텔", "전세", "5억", "2007")
-
-# class Songpa(House):
-#     def __init__(self):
-#         House.__init__(self, "송파", "빌라", "월세", "500/50", "2000")
-
-# G1 = Gangnam()
-# M1 = Mapo()
-# S1 = Songpa()
